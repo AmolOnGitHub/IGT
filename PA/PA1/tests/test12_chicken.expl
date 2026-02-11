@@ -1,0 +1,21 @@
+Game: Chicken/Anti-coordination variant
+Payoffs:
+(R1, C1) -> (2, 2)
+(R1, C2) -> (0, 3)
+(R2, C1) -> (3, 0)
+(R2, C2) -> (1, 1)
+
+Solution Approach:
+Check for pure strategy Nash equilibria by examining best responses.
+
+Pure Equilibrium Found:
+(R2, C2): Payoffs (1, 1)
+- Row's best response to C2: max(0, 1) = 1 (R2) ✓
+- Col's best response to R2: max(0, 1) = 1 (C2) ✓
+
+Both players choose their second strategy, achieving mutual payoff of 1.
+
+Note: The algorithm finds the pure equilibrium. Mixed equilibria may exist
+but are not found in this run.
+
+Output: 1 equilibrium at (R2, C2)

@@ -1,0 +1,27 @@
+Game: 3x3 with Multiple Pure Equilibria
+Payoff Matrices:
+Row Matrix A:        Col Matrix B:
+[4  8  2]           [1  5  2]
+[4  2  0]           [4  2  7]
+[7  7  3]           [4  0  8]
+
+Solution Approach:
+Systematically check all 9 cells for pure Nash equilibria.
+
+Pure Equilibria Found:
+
+1. (R1, C2): Payoffs (8, 5)
+   - Row's best to C2: max(8, 2, 7) = 8 (R1) ✓
+   - Col's best to R1: max(1, 5, 2) = 5 (C2) ✓
+   
+2. (R3, C3): Payoffs (3, 8)
+   - Row's best to C3: max(2, 0, 3) = 3 (R3) ✓
+   - Col's best to R3: max(4, 0, 8) = 8 (C3) ✓
+
+Both equilibria are stable. Neither equilibrium Pareto-dominates the other:
+- First gives Row better payoff (8 vs 3)
+- Second gives Col better payoff (8 vs 5)
+
+Output: 2 pure strategy equilibria
+- R1, C2: Row=(1,0,0), Col=(0,1,0)
+- R3, C3: Row=(0,0,1), Col=(0,0,1)

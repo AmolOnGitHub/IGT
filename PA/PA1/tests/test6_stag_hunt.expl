@@ -1,0 +1,21 @@
+Game: Anti-coordination variant (2x2)
+Payoffs:
+(R1, C1) -> (6, 6)
+(R1, C2) -> (2, 7)
+(R2, C1) -> (7, 2)
+(R2, C2) -> (0, 0)
+
+Solution Approach:
+1. Check pure strategy Nash equilibria by examining best responses
+2. For each cell, verify if both players are playing best responses
+
+Pure Equilibria Found:
+- (R1, C2): Row gets 2, Col gets 7
+  Row's best response to C2: max(2, 0) = 2 ✓
+  Col's best response to R1: max(6, 7) = 7 ✓
+  
+- (R2, C1): Row gets 7, Col gets 2  
+  Row's best response to C1: max(6, 7) = 7 ✓
+  Col's best response to R2: max(2, 0) = 2 ✓
+
+Output: 2 pure strategy equilibria

@@ -1,0 +1,19 @@
+Game: 3x2 Asymmetric
+Payoffs:
+Row Matrix A:        Col Matrix B:
+[2  3]              [3  2]
+[3  2]              [2  1]
+[1  5]              [5  6]
+
+Solution Approach:
+1. Check all 6 cells for pure Nash equilibria
+2. Use Lemke-Howson for mixed strategies if needed
+
+Pure Equilibrium Found:
+(R2, C1): Payoffs (3, 2)
+- Row's best response to C1: max(2, 3, 1) = 3 (R2) ✓
+- Col's best response to R2: max(2, 1) = 2 (C1) ✓
+
+Output: 1 pure strategy equilibrium at (R2, C1)
+Row strategy: (0, 1, 0)
+Col strategy: (1, 0)

@@ -1,0 +1,18 @@
+Game: 3x3 Pure Coordination
+Payoff structure: Identity matrix × 3
+
+Diagonal: (3, 3) - coordination success
+Off-diagonal: (0, 0) - coordination failure
+
+Solution Approach:
+In pure coordination games, all diagonal cells are Nash equilibria.
+
+Pure Equilibria:
+1. (R1, C1): Both play strategy 1, get (3, 3)
+2. (R2, C2): Both play strategy 2, get (3, 3)
+3. (R3, C3): Both play strategy 3, get (3, 3)
+
+Each equilibrium is stable - neither player wants to deviate unilaterally
+since deviation leads to payoff 0.
+
+Output: 3 pure strategy equilibria on the diagonal

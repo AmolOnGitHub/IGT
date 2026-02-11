@@ -1,0 +1,31 @@
+Game: Matching Pennies (variant)
+Payoffs:
+(H, H) -> (1, 0)
+(H, T) -> (0, 1)
+(T, H) -> (0, 1)
+(T, T) -> (1, 0)
+
+Solution Approach:
+1. Check for pure equilibria - none exist (cyclic preferences)
+2. Find mixed strategy equilibrium
+
+Pure Equilibrium Check:
+All cells have at least one player wanting to deviate.
+This is a zero-sum-like game with conflicting interests.
+
+Mixed Strategy Equilibrium:
+Let Row play H with probability p, Col play H with probability q.
+
+For Row to mix (indifferent between H and T):
+E[Row|H] = 1·q + 0·(1-q) = q
+E[Row|T] = 0·q + 1·(1-q) = 1-q
+Indifference: q = 1-q → q = 0.5
+
+For Col to mix (indifferent between H and T):
+E[Col|H] = 0·p + 1·(1-p) = 1-p
+E[Col|T] = 1·p + 0·(1-p) = p
+Indifference: 1-p = p → p = 0.5
+
+Output: 1 mixed equilibrium
+Row: (0.5, 0.5) - randomize equally
+Col: (0.5, 0.5) - randomize equally

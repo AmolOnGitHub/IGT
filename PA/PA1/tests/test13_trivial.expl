@@ -1,0 +1,13 @@
+Game: Trivial 1x1 Game
+Single outcome: (5, 5)
+
+Solution Approach:
+With only one strategy per player, there is no strategic choice.
+The unique outcome is trivially a Nash equilibrium since no
+alternative strategies exist.
+
+Output: 1 equilibrium (the only possible outcome)
+Row: (1.0) - plays only strategy with probability 1
+Col: (1.0) - plays only strategy with probability 1
+
+This serves as a boundary case test for the algorithm.

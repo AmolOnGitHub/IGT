@@ -1,0 +1,30 @@
+Game: Prisoner's Dilemma
+Payoffs:
+(Cooperate, Cooperate) -> (3, 3)
+(Cooperate, Defect) -> (0, 5)
+(Defect, Cooperate) -> (5, 0)
+(Defect, Defect) -> (1, 1)
+
+Solution Approach:
+Check for dominant strategies, then verify Nash equilibrium.
+
+Dominance Analysis:
+Row Player: Strategy 2 (Defect) strictly dominates Strategy 1 (Cooperate)
+- If Col cooperates: 5 > 3
+- If Col defects: 1 > 0
+
+Column Player: Strategy 2 (Defect) strictly dominates Strategy 1 (Cooperate)
+- If Row cooperates: 5 > 3
+- If Row defects: 1 > 0
+
+Pure Equilibrium:
+(Defect, Defect): Payoffs (1, 1)
+- Both players play dominant strategy
+- No incentive to deviate unilaterally
+
+This is the classic result: Individual rationality leads to Pareto-inferior outcome.
+Both would prefer (3, 3) but end up at (1, 1).
+
+Output: 1 pure strategy equilibrium
+Row: (0, 1) - plays Defect
+Col: (0, 1) - plays Defect
