@@ -1,0 +1,191 @@
+epsilon (price increment): 1
+
+Number of bidders: 2
+Number of items:   2
+
+Bidder 1 Valuation: {"1": 15, "2": 20, "12": 30}
+Bidder 2 Valuation: {"1": 10, "2": 25, "12": 30}
+
+*** Iteration 1 ***
+Items:  [1, 2]
+Prices: [0, 0]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {1,2}
+Allocation:  S1 = ∅,  S2 = ∅
+
+  Bidder 1: S_1=∅ -> D_1={1,2}  (new items: {1,2})
+  Price updates: p_1: 0 -> 1, p_2: 0 -> 1
+
+*** Iteration 2 ***
+Items:  [1, 2]
+Prices: [1, 1]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {1,2}
+Allocation:  S1 = {1,2},  S2 = ∅
+
+  Bidder 2: S_2=∅ -> D_2={1,2}  (new items: {1,2})
+  Price updates: p_1: 1 -> 2, p_2: 1 -> 2
+  Evictions: Bidder 1 loses {1,2}
+
+*** Iteration 3 ***
+Items:  [1, 2]
+Prices: [2, 2]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {1,2}
+Allocation:  S1 = ∅,  S2 = {1,2}
+
+  Bidder 1: S_1=∅ -> D_1={1,2}  (new items: {1,2})
+  Price updates: p_1: 2 -> 3, p_2: 2 -> 3
+  Evictions: Bidder 2 loses {1,2}
+
+*** Iteration 4 ***
+Items:  [1, 2]
+Prices: [3, 3]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {1,2}
+Allocation:  S1 = {1,2},  S2 = ∅
+
+  Bidder 2: S_2=∅ -> D_2={1,2}  (new items: {1,2})
+  Price updates: p_1: 3 -> 4, p_2: 3 -> 4
+  Evictions: Bidder 1 loses {1,2}
+
+*** Iteration 5 ***
+Items:  [1, 2]
+Prices: [4, 4]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {1,2}
+Allocation:  S1 = ∅,  S2 = {1,2}
+
+  Bidder 1: S_1=∅ -> D_1={1,2}  (new items: {1,2})
+  Price updates: p_1: 4 -> 5, p_2: 4 -> 5
+  Evictions: Bidder 2 loses {1,2}
+
+*** Iteration 6 ***
+Items:  [1, 2]
+Prices: [5, 5]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1,2},  S2 = ∅
+
+  Bidder 2: S_2=∅ -> D_2={2}  (new items: {2})
+  Price updates: p_2: 5 -> 6
+  Evictions: Bidder 1 loses {2}
+
+*** Iteration 7 ***
+Items:  [1, 2]
+Prices: [5, 6]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1},  S2 = {2}
+
+  Bidder 1: S_1={1} -> D_1={1,2}  (new items: {2})
+  Price updates: p_2: 6 -> 7
+  Evictions: Bidder 2 loses {2}
+
+*** Iteration 8 ***
+Items:  [1, 2]
+Prices: [5, 7]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1,2},  S2 = ∅
+
+  Bidder 2: S_2=∅ -> D_2={2}  (new items: {2})
+  Price updates: p_2: 7 -> 8
+  Evictions: Bidder 1 loses {2}
+
+*** Iteration 9 ***
+Items:  [1, 2]
+Prices: [5, 8]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1},  S2 = {2}
+
+  Bidder 1: S_1={1} -> D_1={1,2}  (new items: {2})
+  Price updates: p_2: 8 -> 9
+  Evictions: Bidder 2 loses {2}
+
+*** Iteration 10 ***
+Items:  [1, 2]
+Prices: [5, 9]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1,2},  S2 = ∅
+
+  Bidder 2: S_2=∅ -> D_2={2}  (new items: {2})
+  Price updates: p_2: 9 -> 10
+  Evictions: Bidder 1 loses {2}
+
+*** Iteration 11 ***
+Items:  [1, 2]
+Prices: [5, 10]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1},  S2 = {2}
+
+  Bidder 1: S_1={1} -> D_1={1,2}  (new items: {2})
+  Price updates: p_2: 10 -> 11
+  Evictions: Bidder 2 loses {2}
+
+*** Iteration 12 ***
+Items:  [1, 2]
+Prices: [5, 11]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1,2},  S2 = ∅
+
+  Bidder 2: S_2=∅ -> D_2={2}  (new items: {2})
+  Price updates: p_2: 11 -> 12
+  Evictions: Bidder 1 loses {2}
+
+*** Iteration 13 ***
+Items:  [1, 2]
+Prices: [5, 12]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1},  S2 = {2}
+
+  Bidder 1: S_1={1} -> D_1={1,2}  (new items: {2})
+  Price updates: p_2: 12 -> 13
+  Evictions: Bidder 2 loses {2}
+
+*** Iteration 14 ***
+Items:  [1, 2]
+Prices: [5, 13]
+Bidder Demands:
+  Bidder 1: {1,2}
+  Bidder 2: {2}
+Allocation:  S1 = {1,2},  S2 = ∅
+
+  Bidder 2: S_2=∅ -> D_2={2}  (new items: {2})
+  Price updates: p_2: 13 -> 14
+  Evictions: Bidder 1 loses {2}
+
+*** Iteration 15 ***
+Items:  [1, 2]
+Prices: [5, 14]
+Bidder Demands:
+  Bidder 1: {1}
+  Bidder 2: {2}
+Allocation:  S1 = {1},  S2 = {2}
+
+Termination condition met: S_i = D_i for all bidders.
+
+==================================================
+Final Allocation:
+  S1 = {1}
+  S2 = {2}
+Final Prices:    p_1=5, p_2=14
+Welfare: 40
