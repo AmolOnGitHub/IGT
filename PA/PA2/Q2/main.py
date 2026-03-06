@@ -77,7 +77,7 @@ def print_final(allocation, welfare, prices):
             if bundle else "∅"
         )
         print(f"  Bidder {i}: T{i} = {label}")
-    print(f"WELFARE: {int(welfare) if welfare == int(welfare) else welfare}")
+    print(f"WELFARE: {round(welfare, 4) if welfare != int(welfare) else int(welfare)}")
     print("=" * 52)
 
 
