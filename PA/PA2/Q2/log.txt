@@ -1,0 +1,843 @@
+epsilon (price increment): 1
+
+Number of bidders: 2
+Number of items:   2
+
+Bidder 1 Valuation: {"1": 15, "2": 20, "12": 30}
+Bidder 2 Valuation: {"1": 10, "2": 25, "12": 30}
+
+*** Iteration 1 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = ∅
+Total Revenue: 0
+Winners: none
+Losers:  Bidder 1, Bidder 2
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 30)
+  Bidder 2: D_2 = {1,2}  (utility = 30)
+Price Updates:
+  p_1({1,2}):  0 -> 1
+  p_2({1,2}):  0 -> 1
+
+*** Iteration 2 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 1
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=1
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 29)
+Price Updates:
+  p_1({1,2}):  1 -> 2
+
+*** Iteration 3 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 2
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({1,2})=1
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 29)
+Price Updates:
+  p_2({1,2}):  1 -> 2
+
+*** Iteration 4 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 2
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=2
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 28)
+Price Updates:
+  p_1({1,2}):  2 -> 3
+
+*** Iteration 5 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 3
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({1,2})=2
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 28)
+Price Updates:
+  p_2({1,2}):  2 -> 3
+
+*** Iteration 6 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 3
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=3
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 27)
+Price Updates:
+  p_1({1,2}):  3 -> 4
+
+*** Iteration 7 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 4
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({1,2})=3
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 27)
+Price Updates:
+  p_2({1,2}):  3 -> 4
+
+*** Iteration 8 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 4
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=4
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 26)
+Price Updates:
+  p_1({1,2}):  4 -> 5
+
+*** Iteration 9 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 5
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({1,2})=4
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 26)
+Price Updates:
+  p_2({1,2}):  4 -> 5
+
+*** Iteration 10 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 5
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=5
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 25)
+Price Updates:
+  p_1({1,2}):  5 -> 6
+
+*** Iteration 11 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 6
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({1,2})=5
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 25)
+Price Updates:
+  p_2({2}):  0 -> 1
+
+*** Iteration 12 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 6
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=1,  p({1,2})=5
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 25)
+Price Updates:
+  p_2({1,2}):  5 -> 6
+
+*** Iteration 13 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 6
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=6
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 24)
+Price Updates:
+  p_1({1,2}):  6 -> 7
+
+*** Iteration 14 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 7
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=1,  p({1,2})=6
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 24)
+Price Updates:
+  p_2({2}):  1 -> 2
+
+*** Iteration 15 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 7
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=2,  p({1,2})=6
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 24)
+Price Updates:
+  p_2({1,2}):  6 -> 7
+
+*** Iteration 16 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 7
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=7
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 23)
+Price Updates:
+  p_1({1,2}):  7 -> 8
+
+*** Iteration 17 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 8
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=2,  p({1,2})=7
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 23)
+Price Updates:
+  p_2({2}):  2 -> 3
+
+*** Iteration 18 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 8
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=3,  p({1,2})=7
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 23)
+Price Updates:
+  p_2({1,2}):  7 -> 8
+
+*** Iteration 19 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 8
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=8
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 22)
+Price Updates:
+  p_1({1,2}):  8 -> 9
+
+*** Iteration 20 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 9
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=3,  p({1,2})=8
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 22)
+Price Updates:
+  p_2({2}):  3 -> 4
+
+*** Iteration 21 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 9
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=4,  p({1,2})=8
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 22)
+Price Updates:
+  p_2({1,2}):  8 -> 9
+
+*** Iteration 22 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 9
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=9
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 21)
+Price Updates:
+  p_1({1,2}):  9 -> 10
+
+*** Iteration 23 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 10
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=4,  p({1,2})=9
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 21)
+Price Updates:
+  p_2({2}):  4 -> 5
+
+*** Iteration 24 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 10
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=5,  p({1,2})=9
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 21)
+Price Updates:
+  p_2({1,2}):  9 -> 10
+
+*** Iteration 25 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 10
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1,2})=10
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 20)
+Price Updates:
+  p_1({2}):  0 -> 1
+
+*** Iteration 26 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 10
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=1,  p({1,2})=10
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 20)
+Price Updates:
+  p_1({1,2}):  10 -> 11
+
+*** Iteration 27 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 11
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=5,  p({1,2})=10
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 20)
+Price Updates:
+  p_2({2}):  5 -> 6
+
+*** Iteration 28 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 11
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=6,  p({1,2})=10
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 20)
+Price Updates:
+  p_2({1,2}):  10 -> 11
+
+*** Iteration 29 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 11
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=1,  p({1,2})=11
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 19)
+Price Updates:
+  p_1({2}):  1 -> 2
+
+*** Iteration 30 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 11
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=2,  p({1,2})=11
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 19)
+Price Updates:
+  p_1({1,2}):  11 -> 12
+
+*** Iteration 31 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 12
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=6,  p({1,2})=11
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 19)
+Price Updates:
+  p_2({2}):  6 -> 7
+
+*** Iteration 32 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 12
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=7,  p({1,2})=11
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 19)
+Price Updates:
+  p_2({1,2}):  11 -> 12
+
+*** Iteration 33 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 12
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=2,  p({1,2})=12
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 18)
+Price Updates:
+  p_1({2}):  2 -> 3
+
+*** Iteration 34 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 12
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=3,  p({1,2})=12
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 18)
+Price Updates:
+  p_1({1,2}):  12 -> 13
+
+*** Iteration 35 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 13
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=7,  p({1,2})=12
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 18)
+Price Updates:
+  p_2({2}):  7 -> 8
+
+*** Iteration 36 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 13
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=8,  p({1,2})=12
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 18)
+Price Updates:
+  p_2({1,2}):  12 -> 13
+
+*** Iteration 37 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 13
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=3,  p({1,2})=13
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 17)
+Price Updates:
+  p_1({2}):  3 -> 4
+
+*** Iteration 38 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 13
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=4,  p({1,2})=13
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 17)
+Price Updates:
+  p_1({1,2}):  13 -> 14
+
+*** Iteration 39 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 14
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=8,  p({1,2})=13
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 17)
+Price Updates:
+  p_2({2}):  8 -> 9
+
+*** Iteration 40 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 14
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=9,  p({1,2})=13
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 17)
+Price Updates:
+  p_2({1,2}):  13 -> 14
+
+*** Iteration 41 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 14
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=4,  p({1,2})=14
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 16)
+Price Updates:
+  p_1({2}):  4 -> 5
+
+*** Iteration 42 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 14
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=5,  p({1,2})=14
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 16)
+Price Updates:
+  p_1({1,2}):  14 -> 15
+
+*** Iteration 43 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 15
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=9,  p({1,2})=14
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 16)
+Price Updates:
+  p_2({2}):  9 -> 10
+
+*** Iteration 44 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 15
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=10,  p({1,2})=14
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 16)
+Price Updates:
+  p_2({1,2}):  14 -> 15
+
+*** Iteration 45 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 15
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=5,  p({1,2})=15
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 15)
+Price Updates:
+  p_1({2}):  5 -> 6
+
+*** Iteration 46 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 15
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({2})=6,  p({1,2})=15
+Losers' Demands:
+  Bidder 1: D_1 = {1}  (utility = 15)
+Price Updates:
+  p_1({1}):  0 -> 1
+
+*** Iteration 47 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 15
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=1,  p({2})=6,  p({1,2})=15
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 15)
+Price Updates:
+  p_1({1,2}):  15 -> 16
+
+*** Iteration 48 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 16
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=10,  p({1,2})=15
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 15)
+Price Updates:
+  p_2({2}):  10 -> 11
+
+*** Iteration 49 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 16
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=11,  p({1,2})=15
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 15)
+Price Updates:
+  p_2({1,2}):  15 -> 16
+
+*** Iteration 50 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 16
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=1,  p({2})=6,  p({1,2})=16
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 14)
+Price Updates:
+  p_1({2}):  6 -> 7
+
+*** Iteration 51 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 16
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=1,  p({2})=7,  p({1,2})=16
+Losers' Demands:
+  Bidder 1: D_1 = {1}  (utility = 14)
+Price Updates:
+  p_1({1}):  1 -> 2
+
+*** Iteration 52 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 16
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=2,  p({2})=7,  p({1,2})=16
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 14)
+Price Updates:
+  p_1({1,2}):  16 -> 17
+
+*** Iteration 53 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 17
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=11,  p({1,2})=16
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 14)
+Price Updates:
+  p_2({2}):  11 -> 12
+
+*** Iteration 54 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 17
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=12,  p({1,2})=16
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 14)
+Price Updates:
+  p_2({1,2}):  16 -> 17
+
+*** Iteration 55 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 17
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=2,  p({2})=7,  p({1,2})=17
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 13)
+Price Updates:
+  p_1({2}):  7 -> 8
+
+*** Iteration 56 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 17
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=2,  p({2})=8,  p({1,2})=17
+Losers' Demands:
+  Bidder 1: D_1 = {1}  (utility = 13)
+Price Updates:
+  p_1({1}):  2 -> 3
+
+*** Iteration 57 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 17
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=3,  p({2})=8,  p({1,2})=17
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 13)
+Price Updates:
+  p_1({1,2}):  17 -> 18
+
+*** Iteration 58 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 18
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=12,  p({1,2})=17
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 13)
+Price Updates:
+  p_2({2}):  12 -> 13
+
+*** Iteration 59 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 18
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=13,  p({1,2})=17
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 13)
+Price Updates:
+  p_2({1,2}):  17 -> 18
+
+*** Iteration 60 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 18
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=3,  p({2})=8,  p({1,2})=18
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 12)
+Price Updates:
+  p_1({2}):  8 -> 9
+
+*** Iteration 61 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 18
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=3,  p({2})=9,  p({1,2})=18
+Losers' Demands:
+  Bidder 1: D_1 = {1}  (utility = 12)
+Price Updates:
+  p_1({1}):  3 -> 4
+
+*** Iteration 62 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 18
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=4,  p({2})=9,  p({1,2})=18
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 12)
+Price Updates:
+  p_1({1,2}):  18 -> 19
+
+*** Iteration 63 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 19
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=13,  p({1,2})=18
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 12)
+Price Updates:
+  p_2({2}):  13 -> 14
+
+*** Iteration 64 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 19
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=14,  p({1,2})=18
+Losers' Demands:
+  Bidder 2: D_2 = {1,2}  (utility = 12)
+Price Updates:
+  p_2({1,2}):  18 -> 19
+
+*** Iteration 65 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 19
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=4,  p({2})=9,  p({1,2})=19
+Losers' Demands:
+  Bidder 1: D_1 = {2}  (utility = 11)
+Price Updates:
+  p_1({2}):  9 -> 10
+
+*** Iteration 66 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 19
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=4,  p({2})=10,  p({1,2})=19
+Losers' Demands:
+  Bidder 1: D_1 = {1}  (utility = 11)
+Price Updates:
+  p_1({1}):  4 -> 5
+
+*** Iteration 67 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = ∅,  T2 = {1,2}
+Total Revenue: 19
+Winners: Bidder 2
+Losers:  Bidder 1
+  Bidder 1 prices (non-zero): p({1})=5,  p({2})=10,  p({1,2})=19
+Losers' Demands:
+  Bidder 1: D_1 = {1,2}  (utility = 11)
+Price Updates:
+  p_1({1,2}):  19 -> 20
+
+*** Iteration 68 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1,2},  T2 = ∅
+Total Revenue: 20
+Winners: Bidder 1
+Losers:  Bidder 2
+  Bidder 2 prices (non-zero): p({2})=14,  p({1,2})=19
+Losers' Demands:
+  Bidder 2: D_2 = {2}  (utility = 11)
+Price Updates:
+  p_2({2}):  14 -> 15
+
+*** Iteration 69 ***
+Items: [1, 2]
+Revenue-Maximising Allocation: T1 = {1},  T2 = {2}
+Total Revenue: 20
+Winners: Bidder 1, Bidder 2
+Losers:  none
+Losers' Demands:
+
+Termination: all losers have empty demand (D_i = ∅ for all i ∈ L).
+
+====================================================
+Final Allocation:
+  T1 = {1}
+  T2 = {2}
+Final Prices (non-zero only):
+  Bidder 1: p({1})=5,  p({2})=10,  p({1,2})=20
+  Bidder 2: p({2})=15,  p({1,2})=19
+Welfare: 40
